@@ -1,4 +1,4 @@
-= spring-boot-mybatis-test
+= spring-boot-mybatis-test-demo
 
 
 == 单元测试的意义
