@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.github.pxzxj.mapper.UserMapper">
+
+    <insert id="saveUser">
+        insert into myuser(username, password, age) values(#{username},#{password},#{age})
+    </insert>
+
+    <select id="findUserByUsername" resultType="io.github.pxzxj.entity.User">
+        select * from myuser where username=#{username}
+    </select>
+</mapper>
