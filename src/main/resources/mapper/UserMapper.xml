@@ -9,4 +9,8 @@
     <select id="findUserByUsername" resultType="io.github.pxzxj.entity.User">
         select * from myuser where username=#{username}
     </select>
+
+    <select id="countUser" resultType="java.lang.Integer">
+        select count(*) from myuser
+    </select>
 </mapper>

@@ -34,4 +34,14 @@ class UserMapperTest {
         });
     }
 
+    /**
+     * 思考：为什么上面的测试testSaveUser已经添加了一个用户，这里的用户数还是1而不是2
+     * 答案：首先测试顺序不能保证其次测试会回滚事务
+     */
+    @Test
+    void testCountUser() {
+        Integer count = userMapper.countUser();
+        assertEquals(1, count);
+    }
+
 }
