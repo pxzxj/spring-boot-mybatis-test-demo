@@ -27,4 +27,4 @@ TIP: 单元测试相关的理论很多，写好一个测试用例的原则也不
 
 * https://docs.spring.io/spring-boot/docs/2.7.18/reference/htmlsingle/#features.testing[Spring Boot测试]
 * https://github.com/mybatis/spring-boot-starter[mybatis-spring-boot-starter]
-* https://mybatis.org/spring-boot-starter/mybatis-spring-boot-test-autoconfigure/[mybatis-spring-boot-test-autoconfigure]
+* https://mybatis.org/spring-boot-starter/mybatis-spring-boot-test-autoconfigure/[mybatis-spring-boot-starter-test]
